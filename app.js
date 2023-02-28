@@ -15,7 +15,7 @@ function versionComp(ver1, ver2) {
   if (first.length < second.length) {
     for (let i = first.length; i < second.length; i++) {
       if (second[i] > 0) {
-        return `${ver1} < ${ver2}`
+        return `${ver1} < ${ver2}`;
       }
     }
   };
